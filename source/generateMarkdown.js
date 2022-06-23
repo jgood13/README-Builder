@@ -1,3 +1,4 @@
+// function using literal string to create markdown page
 function generateMarkdown(input) {
   return `
   # ${input.title}
