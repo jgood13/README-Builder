@@ -2,7 +2,7 @@ function generateMarkdown(input) {
   return `
   # ${input.title}
 
-  ![badge](https://img.shields.io/badge/license-${input.license}-red)<br />
+  ![badge](https://img.shields.io/badge/license-${input.license}-red)<br/>
 
   ## Description
   ${input.description}
@@ -22,8 +22,10 @@ function generateMarkdown(input) {
   ## License
 
   This is covered by the ${input.license} license.
+  <br/>
 
   ## Questions
+
   #### Github
   <a href = "https://github.com/${input.github}"
 target="_blank"> ${input.github}</a>
