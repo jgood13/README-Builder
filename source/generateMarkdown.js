@@ -2,14 +2,23 @@ function generateMarkdown(input) {
   return `
   # ${input.title}
 
-  ![badge](https://img.shields.io/badge/license-${input.license}-red)<br/>
+  ![badge](https://img.shields.io/badge/license-${input.license}-red)
 
+
+  ## Table of contents
+  [Description](#Description) <br>
+  [Installation](#Installation) <br>
+  [Usage](#Usage)<br>
+  [Tests](#Tests)<br>
+  [License](#License)<br>
+  [Questions](#Questions)<br>
+  <br>
   ## Description
   ${input.description}
-
+  
   ## Installation
   ${input.installation}
-
+  
   ## Usage
   ${input.usage}
 
@@ -22,7 +31,6 @@ function generateMarkdown(input) {
   ## License
 
   This is covered by the ${input.license} license.
-  <br/>
 
   ## Questions
 

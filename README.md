@@ -3,4 +3,4 @@
 
 ## Screenshot/Gif
 
-![Screencapture of page](./source/Readme-Generator-Gif.gif "Page GIF")
+![Screencapture of page](./source/Readme-builder-GIF.gif "Page GIF")
